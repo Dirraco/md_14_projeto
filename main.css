@@ -1,0 +1,84 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #82ee7e;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #fff;
+    color: #82ee7e;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #82ee7e;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Roboto, sans-serif;
+}
+
+#sobre-a-loja, #produtos {
+    background-color: #fff;
+}
+
+.text-colored {
+    color: #82ee7e;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: #82ee7e;
+    color: #fff;
+}
+
+.nav-produtos .nav-link.active:hover {
+    color: #82ee7e;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.img-slide {
+    height: 700px;
+    width: 2000px;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 200px;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width:767px) and (max-width:1200px) {
+    .carousel-item img {
+        height: 200px;
+        width: 95%;
+        margin-left: 2%;
+    }
+}
